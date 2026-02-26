@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omesh Sengar — Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Omesh Sengar — Developer, creator, and builder of digital experiences.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ═══════ SPLINE 3D BACKGROUND ═══════ -->
+    <div class="spline-bg">
+        <iframe src="https://my.spline.design/retrofuturismbganimation-lcY4ap8rrGYnahrwXkLKoCHK/" frameborder="0"
+            width="100%" height="100%" loading="lazy"></iframe>
+    </div>
+
+    <!-- ═══════ NAVBAR ═══════ -->
+    <nav class="navbar" id="navbar">
+        <a href="#hero" class="nav-logo">OS.</a>
+        <div class="nav-links" id="navLinks">
+            <a href="#hero" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#music" class="nav-link">Vibes</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- ═══════ HERO SECTION ═══════ -->
+    <section class="hero" id="hero">
+        <div class="hero-content reveal">
+            <p class="hero-greeting">Hi, I'm</p>
+            <h1 class="hero-name" data-text="Omesh Sengar">Omesh Sengar</h1>
+            <p class="hero-tagline">I build things for the web & beyond.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ═══════ ABOUT SECTION ═══════ -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>
+                        I'm a passionate developer who loves crafting digital experiences
+                        that live at the intersection of design and technology. I focus on
+                        building clean, performant, and accessible solutions.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me exploring new technologies,
+                        contributing to open-source, or diving into hardware projects.
+                    </p>
+                </div>
+                <div class="skills-grid reveal">
+                    <div class="skill-badge">HTML / CSS</div>
+                    <div class="skill-badge">JavaScript</div>
+                    <div class="skill-badge">Python</div>
+                    <div class="skill-badge">C / C++</div>
+                    <div class="skill-badge">Verilog</div>
+                    <div class="skill-badge">React</div>
+                    <div class="skill-badge">Node.js</div>
+                    <div class="skill-badge">Git</div>
+                    <div class="skill-badge">Linux</div>
+                    <div class="skill-badge">Figma</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════ PROJECTS SECTION ═══════ -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title reveal">Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card reveal">
+                    <div class="project-number">01</div>
+                    <h3 class="project-title">VirtuMem Visualizer</h3>
+                    <p class="project-desc">
+                        An interactive virtual memory management visualizer with a C backend
+                        and web frontend for understanding page replacement algorithms.
+                    </p>
+                    <div class="project-tags">
+                        <span>C</span><span>JavaScript</span><span>WebSockets</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-number">02</div>
+                    <h3 class="project-title">Fairpay</h3>
+                    <p class="project-desc">
+                        Helping rideshare and delivery workers audit their payouts. This repo bundles a FastAPI backend
+                        for crunching CSV/form data plus a modern, single-page frontend that visualizes fairness scores,
+                        anomalies, and generates ready-to-send appeal letters.
+                    </p>
+                    <div class="project-tags">
+                        <span>FastAPI</span><span>Python</span><span>Frontend</span>
+                    </div>
+                    <a href="https://github.com/ByteWizard-tech/Fairpay-" target="_blank" rel="noopener"
+                        class="project-link">View Project →</a>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-number">03</div>
+                    <h3 class="project-title">Algorithmic Urban Flow Simulator</h3>
+                    <p class="project-desc">
+                        A lab project simulating traffic and urban flow patterns utilizing algorithmic modeling and
+                        TypeScript.
+                    </p>
+                    <div class="project-tags">
+                        <span>TypeScript</span><span>Algorithms</span><span>Simulation</span>
+                    </div>
+                    <a href="https://github.com/ByteWizard-tech/Algorithmic-Urban-Flow-Simulator-" target="_blank"
+                        rel="noopener" class="project-link">View Project →</a>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-number">04</div>
+                    <h3 class="project-title">Portfolio Website</h3>
+                    <p class="project-desc">
+                        This very website! A modern, retro-futuristic personal portfolio featuring 3D animated
+                        backgrounds and responsive design.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Spline3D</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════ WHAT'S PLAYING SECTION ═══════ -->
+    <section class="section music-section" id="music">
+        <div class="container">
+            <h2 class="section-title reveal">What's Playing</h2>
+            <p class="music-subtitle reveal">My Recommendations</p>
+            <div class="music-grid reveal">
+                <!-- ALBUM 1: Replace the Spotify embed URI below to change the album -->
+                <div class="album-card">
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/album/4SZko61aMnmgvNhfhgTuD3?utm_source=generator&theme=0"
+                        width="100%" height="352" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
+                </div>
+                <!-- ALBUM 2 -->
+                <div class="album-card">
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/album/2noRn2Aes5aoNVsU6iWThc?utm_source=generator&theme=0"
+                        width="100%" height="352" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
+                </div>
+                <!-- ALBUM 3 -->
+                <div class="album-card">
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/album/6trNtQUgC8cgbWcqoMYkOR?utm_source=generator&theme=0"
+                        width="100%" height="352" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
+                </div>
+            </div>
+            <p class="music-hint reveal">🎧 To change albums: go to Spotify → right-click album → Share → Embed → copy
+                the <code>src</code> URL and paste it above.</p>
+
+            <!-- ═══════ CURRENTLY WATCHING ═══════ -->
+            <div class="shows-header reveal">
+                <h3>Currently <span>Watching</span></h3>
+                <p>Shows I'm bingeing right now.</p>
+            </div>
+
+            <div class="shows-grid reveal">
+                <!-- SHOW 1 -->
+                <a href="https://www.imdb.com/title/tt0903747/" target="_blank" rel="noopener" class="show-card">
+                    <div class="show-poster poster-1">
+                        <img src="images/breaking-bad.png" alt="Breaking Bad" class="show-poster-img">
+                    </div>
+                    <div class="show-info">
+                        <div class="show-title">Breaking Bad</div>
+                        <div class="show-meta">
+                            <span class="show-rating">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                                </svg>
+                                9.5
+                            </span>
+                            <span>5 Seasons</span>
+                        </div>
+                        <div class="show-genre">Crime • Drama • Thriller</div>
+                        <div class="imdb-link">View on IMDb →</div>
+                    </div>
+                </a>
+
+                <!-- SHOW 2 -->
+                <a href="https://www.imdb.com/title/tt4574334/" target="_blank" rel="noopener" class="show-card">
+                    <div class="show-poster poster-2">
+                        <img src="images/stranger-things.png" alt="Stranger Things" class="show-poster-img">
+                    </div>
+                    <div class="show-info">
+                        <div class="show-title">Stranger Things</div>
+                        <div class="show-meta">
+                            <span class="show-rating">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                                </svg>
+                                8.7
+                            </span>
+                            <span>4 Seasons</span>
+                        </div>
+                        <div class="show-genre">Drama • Fantasy • Horror</div>
+                        <div class="imdb-link">View on IMDb →</div>
+                    </div>
+                </a>
+
+                <!-- SHOW 3 -->
+                <a href="https://www.imdb.com/title/tt5753856/" target="_blank" rel="noopener" class="show-card">
+                    <div class="show-poster poster-3">
+                        <img src="images/dark.png" alt="Dark" class="show-poster-img">
+                    </div>
+                    <div class="show-info">
+                        <div class="show-title">Dark</div>
+                        <div class="show-meta">
+                            <span class="show-rating">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                                </svg>
+                                8.8
+                            </span>
+                            <span>3 Seasons</span>
+                        </div>
+                        <div class="show-genre">Crime • Drama • Mystery</div>
+                        <div class="imdb-link">View on IMDb →</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════ CONTACT SECTION ═══════ -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title reveal">Get in Touch</h2>
+            <p class="contact-subtitle reveal">
+                Have a project in mind, or just want to say hi? My inbox is always open.
+            </p>
+            <a href="mailto:omesh@omeshsengar.com" class="btn btn-primary btn-large reveal">Say Hello →</a>
+
+            <div class="social-links reveal">
+                <a href="https://github.com/ByteWizard-tech" target="_blank" rel="noopener" class="social-link"
+                    aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                        <path
+                            d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════ FOOTER ═══════ -->
+    <footer class="footer">
+        <p>© 2026 Omesh Sengar. Built with passion.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
